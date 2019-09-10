@@ -1,2 +1,53 @@
 # vue_enhanced_framework
-一套基于vue+typescript的增强型框架
+
+<<<<<<< HEAD
+一套基于 vue+typescript 的增强型框架
+=======
+
+## Project setup
+
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+
+```
+npm run build
+```
+
+### Run your tests
+
+```
+npm run test
+```
+
+### Lints and fixes files
+
+```
+npm run lint
+```
+
+### Run your end-to-end tests
+
+```
+npm run test:e2e
+```
+
+### Run your unit tests
+
+```
+npm run test:unit
+```
+
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+> > > > > > > init
