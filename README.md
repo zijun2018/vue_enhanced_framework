@@ -1,8 +1,6 @@
 # vue_enhanced_framework
 
-<<<<<<< HEAD
 一套基于 vue+typescript 的增强型框架
-=======
 
 ## Project setup
 
@@ -45,9 +43,3 @@ npm run test:e2e
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-> > > > > > > init

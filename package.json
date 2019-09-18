@@ -10,8 +10,13 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.19.0",
     "core-js": "^2.6.5",
+    "postcss-pxtorem": "^4.0.1",
+    "qs": "^6.8.0",
     "register-service-worker": "^1.6.2",
+    "vant": "^2.2.1",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",
@@ -32,6 +37,7 @@
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.12.1",
     "eslint": "^5.16.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.0.0",

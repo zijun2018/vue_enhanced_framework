@@ -70,7 +70,7 @@ module.exports = {
     // 要求使用 isNaN() 检查 NaN
     "use-isnan": 2,
     // 强制使用有效的 JSDoc 注释
-    "valid-jsdoc": 1,
+    "valid-jsdoc": 0,
     // 强制 typeof 表达式与有效的字符串进行比较
     // typeof foo === "undefimed" 错误
     "valid-typeof": 2,
@@ -151,7 +151,7 @@ module.exports = {
     // 禁止在循环中出现 function 声明和表达式
     "no-loop-func": 1,
     // 禁用魔术数字(3.14什么的用常量代替)
-    "no-magic-numbers": [1, { ignore: [0, -1, 1] }],
+    "no-magic-numbers": [0, { ignore: [0, -1, 1] }],
     // 禁止使用多个空格
     "no-multi-spaces": 2,
     // 禁止使用多行字符串，在 JavaScript 中，可以在新行之前使用斜线创建多行字符串
@@ -299,7 +299,7 @@ module.exports = {
     // 强制在对象字面量的属性中键和值之间使用一致的间距
     "key-spacing": [2, { beforeColon: false, afterColon: true }],
     // 强制使用一致的换行风格
-    "linebreak-style": [1, "unix"],
+    "linebreak-style": [0, "error", "windows"],
     // 要求在注释周围有空行      ( 要求在块级注释之前有一空行)
     "lines-around-comment": [1, { beforeBlockComment: true }],
     //  强制一致地使用函数声明或函数表达式，方法定义风格，参数：
